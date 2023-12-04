@@ -1,0 +1,36 @@
+ .content {
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+     display: flex;
+     width: 50%;
+     justify-content: center;
+     flex-direction: column;
+     margin: 20px 0;
+ }
+
+ .content h1 {
+     text-align: center;
+     margin: 20px 0;
+ }
+
+ .content p:nth-child(1) {
+     letter-spacing: 0.05rem;
+ }
+
+ .content p {
+     margin: 0;
+     text-align: center;
+     color: rgba(0, 0, 0, 0.7);
+ }
+
+
+
+
+ section {
+     margin-bottom: 20px !important;
+ }
+
+ a {
+     text-decoration: none;
+ }
