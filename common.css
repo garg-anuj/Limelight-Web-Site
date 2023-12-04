@@ -24,8 +24,15 @@
      color: rgba(0, 0, 0, 0.7);
  }
 
-
-
+ /* !---------------Button-------------------------------- */
+ .btn {
+     border: none;
+     border-radius: 1rem;
+     font-size: 1.3rem;
+     width: 320px;
+     padding: 10px;
+     margin-top: 1.5em;
+ }
 
  section {
      margin-bottom: 20px !important;
@@ -34,3 +41,5 @@
  a {
      text-decoration: none;
  }
+
+ /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */

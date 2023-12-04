@@ -148,13 +148,7 @@ header {
 
 .company-content .text-content button {
     background: #86ca45;
-    border: none;
-    border-radius: 1rem;
     color: white;
-    font-size: 1.3rem;
-    width: 320px;
-    padding: 10px;
-    margin-top: 1.5em;
 }
 
 .company-content .text-content button:hover {
@@ -245,7 +239,57 @@ header {
     text-align: start;
 }
 
-/* !------------------FooterSection-------------------------------------------------- */
+/* !------------------------------------trust-Section----------------- */
+.trust-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: url("Images/hero-2\ 1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0.9);
+    height: 800px;
+    font-size: 155%;
+    padding-left: 8rem;
+}
+
+.trust-section h1,
+.trust-section p,
+.trust-section li {
+    margin: 15px 0;
+}
+
+.trust-section button {
+    width: 318px;
+    /* height: 88px; */
+    border-radius: 20px;
+    background: linear-gradient(91deg, #145063 3.38%, #19C7FE 99.66%);
+}
+
+/* !-------------------------------rectangle-8------ */
+.rectangle-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: #fff;
+    background: linear-gradient(90deg, #04FFF0 0.3%, #0AA5FC 99.76%);
+
+}
+
+.rectangle-8 button {
+    background-color: white;
+    font-weight: 600;
+}
+
+.rectangle-8 button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* !-------------------------------FooterSection-------------------------------------------------- */
 .last-section {
     box-shadow: 1px 0 15px rgba(0, 0, 0, 0.2);
     background-color: #f6f9ff;
