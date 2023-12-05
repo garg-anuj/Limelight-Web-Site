@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #91d4fa;
+    padding: 0 1rem;
 }
 
 .logo img {
@@ -219,7 +220,7 @@ header {
     justify-content: space-around;
     margin-bottom: 2rem;
     padding: 1rem;
-    width: 350px;
+    width: 340px;
     height: 320px;
     text-align: center;
 }

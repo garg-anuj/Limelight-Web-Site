@@ -32,6 +32,7 @@
      width: 320px;
      padding: 10px;
      margin-top: 1.5em;
+     background-color: #86ca45;
  }
 
  section {
@@ -41,5 +42,3 @@
  a {
      text-decoration: none;
  }
-
- /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
